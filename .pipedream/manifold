@@ -1,0 +1,3 @@
+def config = genConfig()
+config['debug'] = true
+ciPipeline(config)
